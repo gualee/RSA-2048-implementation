@@ -20,20 +20,20 @@ use PyCrypto and Cryptography package to develop RSA algorithm
      c. set CL=-FI"%VCINSTALLDIR%\INCLUDE\stdint.h"
 
      d. pip install PyCrypto.
-
-     參考 https://stackoverflow.com/questions/41843266/microsoft-windows-python-3-6-pycrypto-installation-error 
+     
+   參考 https://stackoverflow.com/questions/41843266/microsoft-windows-python-3-6-pycrypto-installation-error 
 
   (2)出現找不到GMP or MPIR linrary，請安裝第一項VC compiler。
 
-     參考 https://stackoverflow.com/questions/32800336/pycrypto-on-python-3-5
+   參考 https://stackoverflow.com/questions/32800336/pycrypto-on-python-3-5
 
   (3)pip安裝文件(必須先安裝pip才能下載package)
 
-     參考 https://pip.pypa.io/en/stable/
+   參考 https://pip.pypa.io/en/stable/
 
   (4)亦可使用easy_install此指令安裝或者python setup.py install來手動安裝(路徑必須在此package的目錄下)
 
   (5)使用另外一個套件:PyCryptodome
 
-     參考 https://pycryptodome.readthedocs.io/en/latest/
+   參考 https://pycryptodome.readthedocs.io/en/latest/
 
